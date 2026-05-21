@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "defaultProvider": "local-template",
+  "providers": {
+    "local-template": {
+      "kind": "local-template",
+      "displayName": "Local Template Generator",
+      "notes": "Offline generator for testing the full request, atlas, validation, and install flow. It does not call an AI model."
+    },
+    "external-command": {
+      "kind": "command",
+      "displayName": "External Generator Command",
+      "command": "",
+      "arguments": [
+        "{request}",
+        "{output}"
+      ],
+      "notes": "Fill command and arguments with your own model pipeline. The command should write pet.json and spritesheet.png to {output}."
+    },
+    "manual": {
+      "kind": "manual",
+      "displayName": "Manual Import",
+      "notes": "Create a request folder, put pet.json and spritesheet.png under outputs/, then run the install command."
+    }
+  }
+}

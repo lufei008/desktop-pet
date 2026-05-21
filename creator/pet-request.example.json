@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "petId": "blue-bulldog",
+  "displayName": "Blue Bulldog",
+  "description": "A cute English bulldog with a blue sideways baseball cap, sticker style.",
+  "style": "sticker",
+  "referenceImage": "",
+  "provider": "local-template"
+}
